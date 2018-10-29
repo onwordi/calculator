@@ -1,0 +1,94 @@
+/*************
+* Body styles
+**************/
+body {
+  background-color: #1f7bb1;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+/************************
+* Calculator body styles
+************************/
+#calculator {
+  background-color: #124665;
+  color: #fff;
+  width: 400px;
+  margin: 0 auto;
+  border: 5px solid #092332;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 50px auto;
+}
+.cal-btn {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+.screen {
+  height: 68px;
+  font-size: 26px;
+  padding: 5px 10px;
+  background-color: #092332;
+  margin-bottom: 20px;
+  text-align: right;
+  overflow: auto;
+}
+
+.screen #maths {
+  color: #da6f2e;
+}
+.screen .calculation {
+  display: block;
+  height: 34px;
+}
+
+/***************
+* Button styles
+****************/
+.btn {
+  width: 24%;
+  height: 20px;
+  padding: 26px;
+  margin: 2px;
+  position: relative;
+  border: 3px solid #092332;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+#clear, #zero {
+  width: 195px;
+}
+
+.btn:hover {
+  border-color: #222;
+  background-color: #dbecf6;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/***************
+* Number styles
+****************/
+.num {
+  background-color: #4fa3d5;
+}
+
+.num:hover {
+  background-color: #72b5dd;
+}
+
+#clear, #equals {
+  background-color: #cb6324;
+  border: 3px solid #fff;
+}
+
+#clear:hover, #equals:hover {
+   background-color: #d5824f;
+}
+
+#equals {
+  border: 3px solid #092332;
+}
